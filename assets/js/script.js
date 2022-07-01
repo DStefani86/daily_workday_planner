@@ -49,5 +49,6 @@ var button = $(".btn");
 button.on("click", storeTasks);
 
 function storeTasks(event) {
-  var savedText = event.target;
+  var savedText = event.target.dataset.save;
+  for (var i = 0; i < hourArr.length; i++) {}
 }

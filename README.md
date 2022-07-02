@@ -17,14 +17,34 @@ Once you have located the repository, click the clone button. Clone the SSH to y
 ## Usage
 
 I created this application using Moment, JavaScript, Bootstrap, CSS, and HTML. Going to highlight some of the functions I used to display its functionality. The first step I had to do was grab the current time.
+<br>
 
 [Example01](./assets/images/Example01.png)
+<br>
 
 It always displays the current time on the deployed URL.
+<br>
 
 [SiteExample01](./assets/images/SiteExample01.png)
+<br>
 
-Next I made a function to determine
+Next I made a function to determine if its before or after the current time so I can color code each hour of the day.
+<br>
+
+[Example02](./assets/images/Example02.png)
+<br>
+
+Which results in grey for time passed, yellow for the current hour, and green for the time to come.
+
+<br>
+
+[SiteExample02](./assets/images/SiteExample02.png)
+
+<br>
+
+Lastly, I made a function to input the user text to localstorage and ultimately display that data. The data displays until the storage is cleared.
+
+[Example03](./assets/images/Example03.png)
 
 ## Contact Me!
 
@@ -34,6 +54,10 @@ Next I made a function to determine
 <br>
 
 ## Credits
+
+[Discord](https://discord.gg/bAAUjZkp)
+
+[StackOverflow](https://stackoverflow.com/)
 
 [W3schools](www.w3schools.com)
 <br>

@@ -2,7 +2,7 @@
 
 ## Description
 
-Here is a planner for your every day work schedule! It features a space to input your tasks according to the time which updates live. If the time
+Here is a planner for your every day work schedule! It features a space to input your tasks according to the time which updates live. If the time has passed the hours become color coded so you know where you're at with the day. Enjoy.
 
 [Daily Workday Planner](https://dstefani86.github.io/daily_workday_planner/)
 
@@ -16,19 +16,16 @@ Once you have located the repository, click the clone button. Clone the SSH to y
 
 ## Usage
 
-## Credits
-
-[W3schools](www.w3schools.com)
-<br>
-Sufyaan (Gave me some advice about syntax in a group study)
-<br>
-BCS (Really helped me out by locating one out of place character that was hindering my progress!)
-
 ## Contact Me!
 
 [Email](stefanibusiness@gmail.com)
 <br>
 [LinkedIn](https://www.linkedin.com/in/daniel-stefani-b88695238/)
+<br>
+
+## Credits
+
+[W3schools](www.w3schools.com)
 <br>
 
 ## License

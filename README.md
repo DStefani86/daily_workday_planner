@@ -16,6 +16,8 @@ Once you have located the repository, click the clone button. Clone the SSH to y
 
 ## Usage
 
+I created this application using JavaScript, Bootstrap, CSS, and HTML.
+
 ## Contact Me!
 
 [Email](stefanibusiness@gmail.com)

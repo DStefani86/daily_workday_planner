@@ -1,6 +1,8 @@
+//a variable to the grab the moment.js
 var currentDate = moment().format("MMMM Do YYYY, h:mm:ss a");
 $("#currentDay").text(currentDate);
 
+//const variables for text area by hour
 const hour09 = $("#09");
 const hour10 = $("#10");
 const hour11 = $("#11");
@@ -11,9 +13,11 @@ const hour03 = $("#03");
 const hour04 = $("#04");
 const hour05 = $("#05");
 
+//variable to use the current hour within a function
 var hour = moment().hour();
 console.log(hour);
 
+//this function color codes the hour of the day based on if has already passed or is upcoming
 function currentTime(before, after) {
   if (hour == before) {
     after.addClass("present");
@@ -24,6 +28,7 @@ function currentTime(before, after) {
   }
 }
 
+//functions for each individual hour
 currentTime(9, hour09);
 currentTime(10, hour10);
 currentTime(11, hour11);
@@ -34,6 +39,7 @@ currentTime(15, hour03);
 currentTime(16, hour04);
 currentTime(17, hour05);
 
+//event
 $(".saveBtn").on("click", function (event) {
   var saveButton = event.target;
   var savedText = $(this).siblings("textarea").val();

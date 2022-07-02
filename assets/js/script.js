@@ -39,7 +39,7 @@ currentTime(15, hour03);
 currentTime(16, hour04);
 currentTime(17, hour05);
 
-//event
+//event listener for all save buttons to store the input of each text area local store
 $(".saveBtn").on("click", function (event) {
   var saveButton = event.target;
   var savedText = $(this).siblings("textarea").val();
@@ -51,6 +51,7 @@ $(".saveBtn").on("click", function (event) {
   }
 });
 
+//the function to display all saved text within the local storage
 function keepText() {
   hour09.text(localStorage.getItem("09btn"));
   hour10.text(localStorage.getItem("10btn"));

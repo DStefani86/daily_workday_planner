@@ -16,7 +16,15 @@ Once you have located the repository, click the clone button. Clone the SSH to y
 
 ## Usage
 
-I created this application using JavaScript, Bootstrap, CSS, and HTML.
+I created this application using Moment, JavaScript, Bootstrap, CSS, and HTML. Going to highlight some of the functions I used to display its functionality. The first step I had to do was grab the current time.
+
+[Example01](./assets/images/Example01.png)
+
+It always displays the current time on the deployed URL.
+
+[SiteExample01](./assets/images/SiteExample01.png)
+
+Next I made a function to determine
 
 ## Contact Me!
 
